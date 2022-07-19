@@ -92,7 +92,7 @@ def mv(path_src, path_dst):
     shutil.move(path_src, path_dst)
 
 def relpath(path, start=os.curdir):
-    os.curdir(path, start)
+    return os.path.relpath(path, start)
 
 def rm(directory, *args, ignore_errors=False):
     path = join(directory, *args)
