@@ -82,5 +82,6 @@ join(path, args)                      # Joins multiple parts together as a path
 sep()                                 # Path separator for current platform
 sizeof(path)                          # Size of given file
 split(path)                           # Splits path based on sep()
+relpath(path, start)                  # Relative filepath to path from start
 unpack(filename, extract_dir)         # Unpacks given file (.zip/.tar/.tar.xz...) to given extract_dir
 ```
