@@ -80,6 +80,7 @@ issymlink(path, args)                 # Check whether given path is a symlink
 resolvelink(path, args, full_resolve) # Resolves a link to its target
 join(path, args)                      # Joins multiple parts together as a path
 sep()                                 # Path separator for current platform
+relpath(path, start)                  # Relative filepath to path from start
 sizeof(path)                          # Size of given file
 split(path)                           # Splits path based on sep()
 unpack(filename, extract_dir)         # Unpacks given file (.zip/.tar/.tar.xz...) to given extract_dir
