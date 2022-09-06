@@ -16,7 +16,6 @@ def abspath(path=os.path.dirname(sys.argv[0])):
 def abspathfile(file):
     return os.path.abspath(os.path.dirname(file))
 
-
 def basename(path):
     return os.path.basename(path)
 
